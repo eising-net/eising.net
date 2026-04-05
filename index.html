@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eising.Net</title>
+  <meta
+    name="description"
+    content="Home to Shane and Jake Eising"
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="split-home" aria-label="Eising.net homepage">
+    <header class="site-header">
+      <p class="site-kicker" aria-live="polite">
+        <span class="site-kicker-text site-kicker-net">eising.net</span>
+        <span class="site-kicker-text site-kicker-dev">eising.dev</span>
+      </p>
+      <h2>Which Eising are you looking for?</h2>
+      <label class="mode-toggle" for="mode-switch">
+        <span class="mode-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="presentation">
+            <path d="M8 7 5 10l3 3M16 7l3 3-3 3M13 5l-2 14"/>
+          </svg>
+        </span>
+        <span class="mode-switch-shell">
+          <input
+            id="mode-switch"
+            class="mode-switch-input"
+            type="checkbox"
+            aria-label="Enable Dev Mode"
+          >
+          <span class="mode-switch-slider" aria-hidden="true"></span>
+        </span>
+      </label>
+    </header>
+
+    <section class="panel panel-shane">
+      <a
+        class="panel-card"
+        href="https://shane.eising.net"
+        aria-label="Visit Shane Eising"
+        data-net-href="https://shane.eising.net"
+        data-dev-href="https://shane.eising.dev"
+        data-net-eyebrow="Personal Site"
+        data-dev-eyebrow="Developer Site"
+        data-net-description="Music Composition, Theatre, Writing"
+        data-dev-description="AI Integration Engineer, Software Builder"
+      >
+        <div class="panel-content">
+          <p class="eyebrow" data-eyebrow>Personal Site</p>
+          <h1 class="panel-title">Shane Eising</h1>
+          <p class="description" data-description>
+            Engineering, projects, and writing from Shane.
+          </p>
+          <span class="cta">
+            Visit site
+            <span class="cta-arrow" aria-hidden="true">→</span>
+          </span>
+        </div>
+      </a>
+    </section>
+
+    <section class="panel panel-jake">
+      <a
+        class="panel-card"
+        href="https://jake.eising.net"
+        aria-label="Visit Jake Eising"
+        data-net-href="https://jake.eising.net"
+        data-dev-href="https://jake.eising.dev"
+        data-net-eyebrow="Personal Site"
+        data-dev-eyebrow="Developer Site"
+        data-net-description="Marketing, Information Science"
+        data-dev-description="SQL, HTML/CSS, JavaScript, Python"
+      >
+        <div class="panel-content">
+          <p class="eyebrow" data-eyebrow>Personal Site</p>
+          <h1 class="panel-title">Jake Eising</h1>
+          <p class="description" data-description>
+            Marketing, Information Science, and more.
+          </p>
+          <span class="cta">
+            Visit site
+            <span class="cta-arrow" aria-hidden="true">→</span>
+          </span>
+        </div>
+      </a>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
